@@ -2,7 +2,7 @@
 
 Input file name: input.txt
 Output file name: output.txt
-Time limit: 1 s
+Time limit: 1s
 Memory limit: 64 MB
 
 Задан неориентированный граф без петель и кратных ребер. Требуется построить какое-либо остовное дерево этого графа или сообщить, что его не существует.
