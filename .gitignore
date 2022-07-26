@@ -85,6 +85,8 @@ local.properties
 ### Java ###
 # Compiled class file
 *.class
+*.classpath
+*.gitignore
 
 # Log file
 *.log
