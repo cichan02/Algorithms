@@ -86,7 +86,7 @@ local.properties
 # Compiled class file
 *.class
 *.classpath
-*.gitignore
+*.project
 
 # Log file
 *.log
