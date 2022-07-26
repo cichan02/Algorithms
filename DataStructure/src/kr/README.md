@@ -1,4 +1,5 @@
 7. Карточки
+
 Input file name: in.txt
 Output file name: out.txt
 Time limit: 1 s
@@ -21,6 +22,7 @@ out.txt
 0 1 1 1 0 0 1 0 0 1
 
 15. Маршрут робота
+
 Input file name: in.txt
 Output file name: out.txt
 Time limit: 1 s
@@ -55,6 +57,7 @@ out.txt
 13
 
 68. Таблица результатов
+
 Input file name: standard input
 Output file name: standard output
 Time limit: 4 s
