@@ -2,7 +2,7 @@
 
 Input file name: input.txt
 Output file name: output.txt
-Time limit: 1.25 s
+Time limit: 1.25s
 Memory limit: 256 MB
 
 		Input
