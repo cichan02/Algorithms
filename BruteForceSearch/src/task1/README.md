@@ -1,9 +1,9 @@
-								1. Минимальное число коней
-
-    Input file name: input.txt
-    Output file name: output.txt
-    Time limit: 1s
-    Memory limit: no
+		1. Минимальное число коней
+   
+Input file name: input.txt
+Output file name: output.txt
+Time limit: 1s
+Memory limit: no
 
 Имеется клеточное поле размера n × m, в некоторых позициях которого расставлены чёрные фигуры (m — число столбцов, а n — число строк). Необходимо расставить минимальное число белых коней, чтобы пробивались все свободные позиции.
 
