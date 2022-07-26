@@ -2,7 +2,7 @@
 		
 Input file name: input.txt
 Output file name: output.txt
-Time limit: 1 s
+Time limit: 1s
 Memory limit: no
 
 Решите задачу коммивояжёра на плоскости, если положение городов задаётся координатами, а расстояние считается в прямоугольной метрике.
