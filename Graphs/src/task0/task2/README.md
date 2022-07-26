@@ -1,4 +1,4 @@
-    3. Разрушение дорог
+		3. Разрушение дорог
 
 Input file name: input.txt
 Output file name: output.txt
