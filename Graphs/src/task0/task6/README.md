@@ -3,7 +3,7 @@
 		
 Input file name: input.txt
 Output file name: output.txt
-Time limit: 1 s
+Time limit: 1s
 Memory limit: 128 MB
 
 Неориентированный граф задан списком рёбер. Постройте список смежности этого графа. Гарантируется, что в графе нет петель и кратных рёбер.
