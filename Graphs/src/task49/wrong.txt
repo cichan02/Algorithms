@@ -1,0 +1,32 @@
+//		
+//		int[] components = connectCompon;ets();
+//		List<List<Integer>> mergedGraph = mergeNeutral(componets);
+//		
+
+	private static void dfs(int u, int componentNumber, boolean[] processed, int[] components) {
+		processed[u] = true;
+		components[u] = componentNumber;
+		
+		for(int roadNumber: incidList.get(u)) {
+			Road road = roads.get(roadNumber);
+			int v = road.getFrom() == u ? road.getTo() : road.getFrom();
+			if(road.getRoadType() == RoadType.NEUTRAL && !processed[v]) 
+//				???
+				necessaryRoads.add(roadNumber);
+				dfs(v, componentNumber, processed, components); 
+			}
+		}
+	
+	private static int[] conComponets() {
+		boolean[] processed = new boolean[n];
+		int[] components = new int[n];
+		int componentNumber = 0;
+		
+		for(int i = 0; i < n; i++) {
+			if(!processed[i]) {
+				dfs(i, ++componentNumber, processed, components);
+			}
+		}
+		
+		return components;
+	}
