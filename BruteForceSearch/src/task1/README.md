@@ -1,4 +1,4 @@
-		1. Минимальное число коней
+								1. Минимальное число коней
 
     Input file name: input.txt
     Output file name: output.txt
